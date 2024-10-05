@@ -1,0 +1,29 @@
+[
+    {
+        "model": "task_1.product",
+        "pk": 1,
+        "fields": {
+            "name": "Product 1",
+            "price": "19.99",
+            "quantity": 10
+        }
+    },
+    {
+        "model": "task_1.product",
+        "pk": 2,
+        "fields": {
+            "name": "Product 2",
+            "price": "29.99",
+            "quantity": 5
+        }
+    },
+    {
+        "model": "task_1.product",
+        "pk": 3,
+        "fields": {
+            "name": "Product 3",
+            "price": "9.99",
+            "quantity": 20
+        }
+    }
+]

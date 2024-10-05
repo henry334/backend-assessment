@@ -1,0 +1,26 @@
+[
+    {
+        "model": "task_3.tag",
+        "pk": 1,
+        "fields": {
+            "name": "Django",
+            "posts": [1, 2]
+        }
+    },
+    {
+        "model": "task_3.tag",
+        "pk": 2,
+        "fields": {
+            "name": "Python",
+            "posts": [1]
+        }
+    },
+    {
+        "model": "task_3.tag",
+        "pk": 3,
+        "fields": {
+            "name": "Web Development",
+            "posts": [3]
+        }
+    }
+]

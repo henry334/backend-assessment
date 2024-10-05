@@ -1,0 +1,32 @@
+[
+    {
+        "model": "task_2.contact",
+        "pk": 1,
+        "fields": {
+            "name": "John Doe",
+            "email": "johndoe@example.com",
+            "message": "I am interested in learning more about your services.",
+            "submitted_at": "2024-08-01T10:00:00Z"
+        }
+    },
+    {
+        "model": "task_2.contact",
+        "pk": 2,
+        "fields": {
+            "name": "Jane Smith",
+            "email": "janesmith@example.com",
+            "message": "Can you provide more details on pricing?",
+            "submitted_at": "2024-08-02T14:30:00Z"
+        }
+    },
+    {
+        "model": "task_2.contact",
+        "pk": 3,
+        "fields": {
+            "name": "Alice Johnson",
+            "email": "alicejohnson@example.com",
+            "message": "I would like to schedule a consultation.",
+            "submitted_at": "2024-08-03T09:15:00Z"
+        }
+    }
+]

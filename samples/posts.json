@@ -1,0 +1,29 @@
+[
+    {
+        "model": "task_3.blogpost",
+        "pk": 1,
+        "fields": {
+            "title": "Introduction to Django",
+            "content": "Django is a high-level Python web framework...",
+            "published_date": "2023-08-01T12:00:00Z"
+        }
+    },
+    {
+        "model": "task_3.blogpost",
+        "pk": 2,
+        "fields": {
+            "title": "Understanding Django Models",
+            "content": "Django models are the foundation of the ORM...",
+            "published_date": "2023-08-05T15:30:00Z"
+        }
+    },
+    {
+        "model": "task_3.blogpost",
+        "pk": 3,
+        "fields": {
+            "title": "Django Views and Templates",
+            "content": "Views and templates are essential in rendering HTML pages...",
+            "published_date": "2023-08-10T10:00:00Z"
+        }
+    }
+]
