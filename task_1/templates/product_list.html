@@ -8,9 +8,26 @@
 </head>
 <body>
     <h1>Product List</h1>
-    <ul>
-        <!-- List of products and their data. -->
-    </ul>
-    <h2>Total Value: <!-- Sum of product values. --></h2>
+      <!-- Create a table to display the information -->
+    <table border="1"> 
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Quantity</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- for loop to display all the line in the db -->
+            {% for product in products %}
+            <tr>
+                <th>{{ product.name }}</th>
+                <td>{{ product.price }}</td>
+                <td>{{ product.quantity }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    <h2>Total Value: {{total_value}}</h2> <!-- Added total_value var -->
 </body>
 </html>

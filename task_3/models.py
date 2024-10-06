@@ -5,4 +5,6 @@ class BlogPost(models.Model):
     content = models.TextField()
     published_date = models.DateTimeField(auto_now_add=True)
 
-# class Tag(models.Model):
+class Tag(models.Model):
+    name = models.CharField(max_length=20)
+    posts = models.ManyToManyField(BlogPost, related_name='tags')
